@@ -21,7 +21,7 @@ Some notes:
 3. [Tests](#tests)
 4. [Project Planning](#project-planning)
 5. [Process](#process)
-6. [Tools](tools)
+6. [Tools](#tools)
 7. [Bucket List](#bucket-list)
 # Breakdown
 
