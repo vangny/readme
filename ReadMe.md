@@ -1,31 +1,23 @@
-> Disclaimer: These are merely my opinions and as such they are subject to change. Who would have thunk?
 # Purpose of This Repository
-This repo is to showcase my preferred Developer workflow. 
 
-\*Note: This is my personal workflow, and does not perfectly reflect how I contribute to a team or codebase. The best workflow when working with others is the team's workflow.
+A few notes before you dive into this doc:
 
-> ℹ️ 
-> 
-> This is a living document — a personal journal of my evolving thoughts on software engineering. It reflects my experience, not universal truths. I update it when something shifts in how I think or work. You're welcome to read along.
-
-
-Some notes:
-- This isn’t a blog or tutorial. It’s a personal reference I’m sharing publicly.
+- This is a living document — a personal journal of my evolving thoughts on software engineering. It reflects my experience, not universal truths. I update it when something shifts in how I think or work. You're welcome to read along.
 - Expect strikethroughs and annotations as I keep outdated thoughts around as a record of how I’ve changed/grown.
-- If you want the full history of the doc, [check the commit log](#).
-- I'm opinionated but not dogmatic, nothing here is set in stone.
+- I'm opinionated but not dogmatic, nothing here is set in stone. 
+- This is my personal workflow, and does not perfectly reflect how I contribute to a team or codebase. The best workflow when working with others is the team's workflow.
+- If you want the full history of the doc, [check the commit log](https://github.com/vangny/readme/commits/main/).
 
 # Navigation
-1. [Project Architecture](##Project Architecture)
-2. [Local Development](##local-development)
+1. [Project Architecture](#project-architecture)
+2. [Local Development](#local-development)
 3. [Tests](#tests)
 4. [Project Planning](#project-planning)
 5. [Process](#process)
 6. [Tools](#tools)
 7. [Bucket List](#bucket-list)
-# Breakdown
 
-## Project Architecture
+# Project Architecture
 I like monoliths. I like microservices. I like using the right tool for the right job.
 
 When it comes to starting a project, I default to a monoliths. There's little to no reason why you would need to take advantage of microservices so early on in development. There's no scaling issues (you have no users) and there shouldn't be any organizational issues (you have no code), so why add another layer of complexity? We should strive to keep things as simple as possible. I will say, however, monoliths should try to be organized and modular (aka modular monoliths). That way we can take advantage of microservices at the technical level if/when we get to that point.
@@ -40,7 +32,8 @@ I have tried experimenting with using a vertical slice architecture in small pro
 > 
 > I default to a layered architecture but have dabbled in vertical slice
 
-## Local Development Environment
+
+# Local Development Environment
 In the past I've tried to keep things really minimalistic. Just my code editor, the default terminal and Postman for when I didn't want to use `curl`. 
 
 Then I went through a couple editor phases- starting with Sublime, a brief stint with WebStorm, and then I mained VS Code for the past couple of years. I've recently given Cursor a try and it's not bad. It's just another flavor of VS Code with good tab completion. I have not tried vibe coding nor do I have the want to.
@@ -60,7 +53,7 @@ I'll add in nginx whenever I want to get a little fancy and that's really about 
 > Oh, and Catppuccin
 
 
-## Tests
+# Tests
 Everyone's favorite topic. Testing is great. What isn't great is having my architecture determined by tests along with wasting time creating tests that will ultimately be refactored by the end. 
 
 Test Driven Development (TDD) can be okay in very specific cases; if there are components that are going to be used consistently and will more than likely never change (like a parser) then I'll likely incorporate something similar to TDD.
@@ -88,7 +81,7 @@ Integration tests are what I consider the sweet spot and spend the most effort o
 > I value integration tests the most as they test at a high enough level while being maintainable and easier to debug compared to E2E tests.
 
 
-## Project Planning
+# Project Planning
 These are simplified guidelines that I use when planning out a project.
 
 1. Clarify The Goals
@@ -113,7 +106,7 @@ At this point I'll be piecing out tickets for the MVP and start developing.
 >📝 No summary here
 
 
-## Process
+# Process
 A better section name would be **Agile** because that is THE process these days.
 
 I like Agile. Agile's core principles are great and most if not all Engineers should give the manifesto a read. I love it when the team can do the following:
@@ -134,7 +127,7 @@ Then we have those that dislike individual teams having their own processes beca
 > -Somebody smarter than me
 
 
-## Tools
+# Tools
 These are the tools on my tool belt, not every tool in my workshop.
 
 - Git
@@ -154,10 +147,10 @@ These are the tools on my tool belt, not every tool in my workshop.
 - AWS
 - GraphQL
 
->📝 No summary here
+> 📝 No summary here
 
 
-## Bucket List
+# Bucket List
 These are technologies that I have some interest in taking a look at. They vary from just reading the docs to taking a deep dive.
 
 - [Jujutsu](https://github.com/jj-vcs/jj)
